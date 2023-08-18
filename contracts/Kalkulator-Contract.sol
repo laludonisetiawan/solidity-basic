@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
+
 contract Kalkulator {
     uint256 hasil = 0; // variable untuk menyimpan nilai perhitungan
 
