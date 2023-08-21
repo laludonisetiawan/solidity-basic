@@ -7,12 +7,17 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "sayHello",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1 HelloWorld.sol": "HelloWorld"
+			"contracts/4. State_Variable.sol": "SolidityTest"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1 HelloWorld.sol": {
-			"keccak256": "0xe7d45d436d2ba9bdb206c9adf5579cf5aae15cca9521e02b2e432bc2a400aaf0",
+		"contracts/4. State_Variable.sol": {
+			"keccak256": "0x84c8d67ebbe1247858c86525a5fe74e44d553603336b0c5ca9e6c5fbc14c64cb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ba53ab670014e487ef80da87385e687ccdf2ecdc6e8835901b941d6f2fcbd49b",
-				"dweb:/ipfs/QmRSFUJQiKA7nue6akyAxdPsQ9EhW3Ga4zm9uuVRijKunJ"
+				"bzz-raw://0925851516a24ce4ab4ea4d415519d0f08b01f2e11ff21a4095f88b0e6b180ff",
+				"dweb:/ipfs/QmTfCr2NkXDReYWZswcFWkNdaKgqTzBi24D1DidmgG98Bg"
 			]
 		}
 	},

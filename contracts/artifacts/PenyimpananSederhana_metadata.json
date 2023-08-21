@@ -7,12 +7,17 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "sayHello",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1 HelloWorld.sol": "HelloWorld"
+			"contracts/Variables.sol": "PenyimpananSederhana"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1 HelloWorld.sol": {
-			"keccak256": "0xe7d45d436d2ba9bdb206c9adf5579cf5aae15cca9521e02b2e432bc2a400aaf0",
+		"contracts/Variables.sol": {
+			"keccak256": "0xbcc31e704f92b1fe56801c235936c2f2ea00057bf8ff80b858da1d9b5ce41c03",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ba53ab670014e487ef80da87385e687ccdf2ecdc6e8835901b941d6f2fcbd49b",
-				"dweb:/ipfs/QmRSFUJQiKA7nue6akyAxdPsQ9EhW3Ga4zm9uuVRijKunJ"
+				"bzz-raw://30277351147efa5f46e00efafb373839d7d6366a67e950169a8c2378985f5232",
+				"dweb:/ipfs/QmXLFPGwmp3TpU1CvHQtCzJfdaQao5QvEyc5ZehRYhAGZW"
 			]
 		}
 	},

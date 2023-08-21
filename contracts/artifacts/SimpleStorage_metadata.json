@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BasicSyntax.sol": "SimpleStorage"
+			"contracts/2. BasicSyntax.sol": "SimpleStorage"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/BasicSyntax.sol": {
+		"contracts/2. BasicSyntax.sol": {
 			"keccak256": "0x5fec76276d6df8ed44358daa29b6114fc68a3afcc4c2864a11bfd77e58c696db",
 			"license": "MIT",
 			"urls": [
