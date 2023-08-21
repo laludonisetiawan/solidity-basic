@@ -9,3 +9,6 @@ contract LokalVariable {
       return jumlah; // mengakses variable di lokal
     }
 }
+
+
+
