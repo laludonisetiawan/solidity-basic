@@ -8,43 +8,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_text",
-						"type": "string"
-					}
-				],
-				"name": "create",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "text",
-						"type": "string"
-					},
-					{
-						"internalType": "bool",
-						"name": "completed",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -65,37 +28,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "toggleCompleted",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_text",
-						"type": "string"
-					}
-				],
-				"name": "updateText",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -111,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Structs.sol": "Todos"
+			"contracts/16 Struct_Todos.sol": "Todos"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -125,12 +57,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Structs.sol": {
-			"keccak256": "0x7bbb37a3a920a5bcac11f6d923853db7109db2d4de91d4e8842ef2f84ff925cb",
+		"contracts/15 StuctsDeclaration.sol": {
+			"keccak256": "0xd2ca58855071bd10b55eab49a39bb7f26542b5e2f207bfbe758d187096fdd3ee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ac7538716e42228561f62dcd0ee5a35ae88f8f7dff0a99a0cb826ca448d5825e",
-				"dweb:/ipfs/QmPALkRB29JeFbGGPL2H1yHP5CvfkX8TuHtnrQttruUnrM"
+				"bzz-raw://91000e87970037108a2222482b87623ba02493d2be8f300ee35c7cb750d6c577",
+				"dweb:/ipfs/Qme1Xor6xhokMe7kDS3f8kpXydxwvf7aXznbwTGmPVRMRG"
+			]
+		},
+		"contracts/16 Struct_Todos.sol": {
+			"keccak256": "0xe38d0fa266bb68b2d84ce608e984fde189861c231d97490077317833c534ddf1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://84f714e90ca8d45891d4ad30434503f8168815a2286bd4ab60abc9e186df32eb",
+				"dweb:/ipfs/QmZix9txvBTXrwmDPskUFjCRhpnpHjiwGZLSF3dCpqWvkt"
 			]
 		}
 	},
