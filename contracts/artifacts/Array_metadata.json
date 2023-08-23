@@ -154,7 +154,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Array.sol": "Array"
+			"contracts/8 Array.sol": "Array"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -168,7 +168,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Array.sol": {
+		"contracts/8 Array.sol": {
 			"keccak256": "0x03294ef83089337080c00328e1097514d31762e4b00e853abf91373b59d97cd8",
 			"license": "MIT",
 			"urls": [

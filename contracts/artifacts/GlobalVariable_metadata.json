@@ -63,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Global_Variable.sol": "GlobalVariable"
+			"contracts/4 Global_Variable.sol": "GlobalVariable"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -77,7 +77,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Global_Variable.sol": {
+		"contracts/4 Global_Variable.sol": {
 			"keccak256": "0x31149e4febad83527e0ca5dae70982797b3d0fd812bd732201b413ac049b33bd",
 			"license": "MIT",
 			"urls": [

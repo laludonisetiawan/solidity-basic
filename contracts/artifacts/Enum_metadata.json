@@ -7,50 +7,10 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "cancel",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "enum Enum.Status",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "reset",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "enum Enum.Status",
-						"name": "_status",
-						"type": "uint8"
-					}
-				],
-				"name": "set",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "status",
 				"outputs": [
 					{
-						"internalType": "enum Enum.Status",
+						"internalType": "enum Status",
 						"name": "",
 						"type": "uint8"
 					}
@@ -72,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Enum.sol": "Enum"
+			"contracts/13 EnumImport.sol": "Enum"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -86,12 +46,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Enum.sol": {
-			"keccak256": "0x6be4b195d695e0df7854710a6c76919d1ef2713aa26665f213f9f8c81f26869f",
+		"contracts/12 EnumDeclaration.sol": {
+			"keccak256": "0xbb61b4685823e5de93b232ae979fc4b6082b813029a55dd560a46a285680ff57",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1070069abf05d73a59b61d2b4fc94ae48239cce31a54d72bbb38c55fb6d8288a",
-				"dweb:/ipfs/QmYSQP1CT2izU5eVTPVNMJRhYZTD8b1kj2DeJVXUoM2Aa9"
+				"bzz-raw://31cd8d3f3cccc514bde4738b39366357df94451c6b73a85d03e7edd04a523dd9",
+				"dweb:/ipfs/QmbyWCs3QmVHAiXyh9zSGTPL7kYmLvYUqSXVKP2JsgtYw6"
+			]
+		},
+		"contracts/13 EnumImport.sol": {
+			"keccak256": "0xa377b71a396f27ab17e8bfe54772bd70e91f5896a54510b73f6c4a7975cf599c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a83b20524914fe8cf9fd4c8da89193f6e47d88d07c78f430b6e6eaa116c58aa7",
+				"dweb:/ipfs/QmdgVCqh9AyGc74By6JM2b1wunV44L5v59tWZLNptoKvvd"
 			]
 		}
 	},
