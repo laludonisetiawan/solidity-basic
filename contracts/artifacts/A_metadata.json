@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/23 Inheritance.sol": "E"
+			"contracts/23 Inheritance.sol": "A"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
